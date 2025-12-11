@@ -209,30 +209,128 @@ header{
 
 }
 
-.one{
-    background-image: url("Images/img10.jpg");
-    background-size: cover;
+.box_one{
+    position: relative;
+    width: 100%;
+    height: max-content;
+}
+
+.box_one_img{
+    width: 100%;
     height: auto;
-    display: flex;
-    justify-content: end;
-    align-items: center;
-    padding: 30px 20px;
+    display: block;
+}
+
+.text_box1{
+    width: 50%;
+    position: absolute;
+    right: 0%;
+    top: 30%;
+    color: white;
+    font-family: poppins, sans-serif;
     
 }
 
-.content1{
-    display: flex;
-    flex-direction: column;
+.text_box h3{
+    color: black;
+  font-size: 40px;
+  font-weight:bolder;
+}
+
+.para1{
+    font-size: 24px;
+    font-weight: 500;
+    color: rgb(70, 69, 69);
+}
+
+.para2{
+    font-size: 22px;
+    font-weight: 400;
+    color: gray;
+}
+
+
+.box_two{
+    position: relative;
+    width: 100%;
+    height: max-content;
+
+}
+
+
+.text_box2{
     width: 50%;
-    font-family: sans-serif;
-    row-gap: 20px;
+    position: absolute;
+    left: 8%;
+    top: 30%;
+    color: white;
+    font-family: poppins, sans-serif;
+    
 }
 
-.content1 h3{
-    font-size: 40px;
-    font-weight:bolder;
+.text_box2 h3{
+    color: black;
+  font-size: 40px;
+  font-weight:bolder;
 }
 
-.content1 p{
+
+.text_box2 p{
+    font-size: 24px;
+    font-weight: 500;
+    color: rgb(0, 0, 0);
+}
+
+
+.text_box2 button{
+    margin-top: 20px;
+    padding: 10px 25px;
+    border-radius: 30px;
+    border: none;
+    background-color: rgba(107, 158, 30, 0.926);
+    color: white;
     font-size: 18px;
+    cursor: pointer;
+}
+
+
+.box_three{
+    position: relative;
+    width: 100%;
+    height: max-content;
+}
+
+.box_three_img{
+    width: 100%;
+    height: auto;
+    display: block;
+}
+.text_box3{
+    width: 50%;
+    position: absolute;
+    left: 8%;
+    top: 30%;
+    color: white;
+    font-family: poppins, sans-serif;
+    
+}
+.text_box3 h3{
+    color: black;
+  font-size: 40px;
+  font-weight:bolder;
+}
+.text_box3 p{
+    font-size: 24px;
+    font-weight: 500;
+    color: rgb(70, 69, 69);
+}
+.text_box3 button{
+    margin-top: 20px;
+    padding: 10px 25px;
+    border-radius: 30px;
+    border: none;
+    background-color: rgba(107, 158, 30, 0.926);
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
 }
