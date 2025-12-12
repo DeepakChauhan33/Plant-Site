@@ -1,24 +1,76 @@
 @media (min-width: 200px) and (max-width: 575px) {
-  body {
-    background-color: lightblue;
-  }
 
 
-  .call_num{
-    display: none;
-  }
+    .head_one {
+        justify-content: start;
+        padding: 10px 20px;
+    }
 
-  .services{
-    flex-direction: column;
-  }
+    .call_num {
+        display: none;
+    }
 
-  .break{
-    display: none;
-  }
+    .head_two {
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 30px 20px;
+    }
+
+    .logo_Cant {
+        height: 50px;
+    }
+
+    .mbl_menu{
+        display: flex;
+        list-style: none;
+    }
+
+    .mbl_menu li {
+        font-size: 50px;
+        list-style: none;
+        color: orange ;
+        cursor: pointer;
+    }
+
+    .head_two nav {
+        display: none;
+    }
 
 
-  .banner_para p{
-    width: 90%;
 
-  }
+    .banner_heading h1{
+        font-size: 7vw;
+    }
+
+    .banner_heading p{
+        font-size: 7vw;
+    }
+
+
+
+    .break {
+        display: none;
+    }
+
+
+    .banner_para {
+        width: 90%;
+    }
+
+    .banner_para p {
+        font-size: 18px;
+    }
+
+    .banner_btn ul{
+        display: none;
+    }
+
+
+     .services {
+        flex-direction: column;
+    }
+
+    .cant li{
+        font-size: 70px;
+    }
 }

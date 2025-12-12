@@ -4,9 +4,6 @@
     box-sizing: border-box;
 }
 
-header{
-
-}
 
 .head_one{
     display: flex;
@@ -51,6 +48,10 @@ header{
 
 .logo_Cant {
     height: 80px;
+}
+
+.mbl_menu{
+    display: none;
 }
 
 .logo_Cant img{
@@ -100,22 +101,22 @@ header{
 
 .banner_heading h1{
     color: white;
-    font-size: 4.1vw;
+    font-size: 50px;
     line-height: 1.1;
     font-family: roboto, sans-serif;
-    font-weight :900;
+    font-weight :800;
 }
 
 .banner_heading p{
     font-family: roboto, sans-serif;
     color: white;
-    font-size: 4.1vw;
+    font-size: 50px;
     line-height: 1.1;
-    font-weight: 900;
+    font-weight: 800;
 }
 
 .banner_para{
-    width: 31%;
+    width: 32%;
     text-align: center;
     margin-top: 20px;
 }
@@ -123,7 +124,7 @@ header{
 .banner_para p{
     text-align: center;
     color: white;
-    font-size: 25px;
+    font-size: 26px;
     font-family: "Poppins", sans-serif;
     font-weight: 300;
     line-height: 1.5;
