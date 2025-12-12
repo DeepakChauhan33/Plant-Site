@@ -100,7 +100,7 @@ header{
 
 .banner_heading h1{
     color: white;
-    font-size: 45px;
+    font-size: 4.1vw;
     line-height: 1.1;
     font-family: roboto, sans-serif;
     font-weight :900;
@@ -109,7 +109,7 @@ header{
 .banner_heading p{
     font-family: roboto, sans-serif;
     color: white;
-    font-size: 45px;
+    font-size: 4.1vw;
     line-height: 1.1;
     font-weight: 900;
 }
