@@ -247,23 +247,23 @@
 .text_box1 h3 {
     font-family: sans-serif;
     color: rgb(56, 54, 54);
-    font-size: 40px;
+    font-size: 3vw;
     font-weight: 800;
 
 }
 
 .para1 {
     padding-top: 10px;
-    font-size: 24px;
+    font-size: 2vw;
     font-weight: 500;
     color: rgb(86, 85, 85);
 }
 
 .para2 {
-    font-size: 20px;
+    font-size: 1.4vw;
     font-weight: 300;
     color: gray;
-    padding-top: 20px;
+    padding-top: 15px;
 }
 
 .text_box1 button {
@@ -282,8 +282,12 @@
 .box_two {
     position: relative;
     width: 100%;
-    height: max-content;
+    object-fit: cover;
+    height: auto;
+}
 
+.box_two_img {
+    width: 100%;
 }
 
 
@@ -299,26 +303,26 @@
 
 .text_box2 h3 {
     color: rgb(231, 164, 39);
-    font-size: 40px;
+    font-size: 4vw;
     font-weight: 800;
 }
 
 
 .text_box2 p {
-    font-size: 34px;
+    font-size: 4vw;
     font-weight: 800;
     color: rgb(255, 255, 255);
 }
 
 
 .text_box2 button {
-    margin-top: 20px;
+    margin-top: 2vw;
     padding: 10px 25px;
     border-radius: 30px;
     border: none;
     background-color: rgba(107, 158, 30, 0.926);
     color: white;
-    font-size: 16px;
+    font-size: 2vw;
     font-weight: 400;
     cursor: pointer;
 }
@@ -348,7 +352,7 @@
 
 .text_box3 h3 {
     color: black;
-    font-size: 42px;
+    font-size: 40px;
     font-weight:900;
 }
 
@@ -367,4 +371,11 @@
     color: rgb(46, 45, 45);
     font-size: 16px;
     cursor: pointer;
+}
+
+
+
+.advntg{
+    width: 100%;
+    background-color: #fdce35;
 }

@@ -77,6 +77,65 @@
 
 
 
+    .box_one_img {
+    display: none;
+}
+
+
+.box_one {
+    position: relative;
+    padding: 30px 10px;
+}
+
+
+.text_box1 {
+    position: relative;
+    width: 100%;
+    height: max-content;
+    display: block;
+    justify-content: center;
+    text-align: start;
+    color: white;
+    font-family: poppins, sans-serif;
+
+    padding-left: 20px;
+}
+
+.text_box1 h3 {
+    font-family: sans-serif;
+    color: rgb(56, 54, 54);
+    font-size: 8vw;
+    font-weight: 800;
+}
+
+.para1 {
+    padding-top: 10px;
+    font-size: 18px;
+    font-weight: 500;
+    color: rgb(86, 85, 85);
+}
   
+.para2 {
+    font-size: 3.5vw;
+}
+
+
+
+
+.text_box2 {
+    width: 50%;
+    position: absolute;
+    left: 20px;
+    top: 10px;
+    color: white;
+    font-family: sans-serif;
+
+}
+
+
+
+.text_box3 {
+    width: 60%;
+}
 
 }
