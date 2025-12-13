@@ -177,4 +177,24 @@
   }
 
 
+
+
+  .blog {
+    padding: 60px 40px;
+    text-align: center;
+
+}
+
+  .blog h3{
+    font-size: 26px;
+  }
+  .blog_cant{
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .blog_box{
+    width: 100%;
+  }
+
 }
