@@ -122,11 +122,17 @@
 
 
 
+.box_two_img{
+    min-height: 280px;
+}
+
+
+
 .text_box2 {
     width: 50%;
     position: absolute;
     left: 20px;
-    top: 10px;
+    top: 60px;
     color: white;
     font-family: sans-serif;
 
@@ -137,5 +143,16 @@
 .text_box3 {
     width: 60%;
 }
+
+
+.adv-grid {
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+
+  .advantages h2 {
+    font-size: 28px;
+  }
+
 
 }
