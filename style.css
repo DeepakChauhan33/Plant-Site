@@ -416,3 +416,29 @@
   font-size: 20px;
   line-height: 1.6;
 }
+
+
+.blog{
+    padding: 30px 20px;
+    text-align: center;
+
+}
+
+.blog h3{
+    font-family: sans-serif;
+    font-size: 22px;
+    color: rgb(35, 34, 34);
+}
+
+.blog_box{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    text-align: start;
+
+
+}
+
+.blog_box img{
+
+}
