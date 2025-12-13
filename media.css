@@ -140,8 +140,30 @@
 
 
 
+.box_three_img {
+    width: 100%;
+    min-height: 280px;
+    object-fit: cover;
+    display: block;
+}
+
+
 .text_box3 {
     width: 60%;
+}
+
+
+.text_box3 h3{
+    font-size: 5vw;
+}
+
+.text_box3 p{
+    font-size: 4vw;
+}
+
+
+.text_box3 button{
+    font-size: 1.3vw;
 }
 
 
