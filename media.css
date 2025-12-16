@@ -197,4 +197,46 @@
     width: 100%;
   }
 
+
+
+
+  /* About Section  */
+
+  .about_header h2{
+    font-size: 30px;
+    font-weight: 700;
+  }
+
+  .about_header ul{
+    display: flex;
+    list-style: none;
+    font-size: 18px;
+    gap: 10px;
+    cursor: pointer;
+}
+
+
+.about_header{
+    height: 20vh;
+}
+
+
+.about_info{
+    padding: 50px 0;
+}
+
+.about_info h3{
+    font-size: 30px;
+}
+
+.about_info strong{
+    font-size: 20px;
+    font-weight: 500 ;
+}
+
+.about_info p{
+
+    font-size: 20px;
+}
+
 }
