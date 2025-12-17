@@ -239,4 +239,32 @@
     font-size: 20px;
 }
 
+
+.frame{
+    height: 120vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    object-fit:contain;
+}
+
+.frame_innerBox{
+    width: 100%;
+    height: min-content;
+    padding: 10px 20px;
+}
+
+.frame_innerBox h4{
+    font-size: 30px;
+}
+
+.frame_innerBox p{
+    font-size: 18px;
+}
+
+.f2 div{
+    text-align: start;
+    align-items: start;
+}
+
 }
