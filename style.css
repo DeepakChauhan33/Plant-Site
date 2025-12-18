@@ -631,3 +631,115 @@
 .f3{
     background-image: url(Images/img29-1410x487.jpg);
 }
+
+
+
+.contact{
+    width: 100%;
+    font-family: sans-serif;
+    display: flex;
+    align-items: center;
+    padding: 0;
+}
+
+.contact_info{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: start;
+    gap: 50px;
+    padding: 50px 0;
+}
+
+.head{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.head h2{
+    font-size: 40px;
+    font-weight: 800;
+    color: rgb(47, 46, 46);
+}
+
+.head span{
+    font-size: 22px;
+    font-weight: 600;
+    color: #6fb53f;
+}
+
+.adrs1{
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    font-size: 22px;
+    padding: 0px;
+    margin-bottom: 10px;
+    color: gray;
+    font-weight: 100;
+}
+
+.adrs1 span{
+    display: inline-block;
+    margin-bottom: 20px;
+    color: #6fb53f;
+    font-weight: 600;
+}
+
+
+.contact_form{
+    width: 50%;
+    background-color: rgba(230, 228, 224, 0.437);
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    padding: 20px 40px;
+}
+
+
+.contact_form h3{
+    font-size: 40px;
+    font-weight: 800;
+    color: rgb(46, 45, 45);
+    display: block;
+    margin-bottom: 10px;
+}
+
+
+.contact_form p{
+    width: 85%;
+    font-size: 22px;
+    font-weight: 100;
+    color: rgb(57, 54, 54);
+    margin-bottom: 58px;
+    display: block;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+
+
+form input{
+    border: 2px solid rgb(83, 183, 83);
+    width: 80%;
+    padding: 18px 10px;
+    border-radius: 20px;
+}
+
+
+form button{
+    background-color: #6fb53f;
+    padding: 16px 8px;
+    border-radius: 24px;
+    border: none;
+    color: white;
+    width: 30%;
+    cursor: pointer;
+}

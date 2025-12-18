@@ -267,4 +267,53 @@
     align-items: start;
 }
 
+
+
+
+
+
+
+
+.contact{
+    width: 100%;
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact_info{
+    width: 100%;
+    padding: 20px;
+}
+
+
+
+.contact_form{
+    width: 100%;
+}
+
+
+.contact_form p{
+    width: 85%;
+    font-size: 18px;
+    font-weight: 100;
+    color: rgb(57, 54, 54);
+    margin-bottom: 28px;
+    display: block;
+}
+
+
+form input{
+    border: 2px solid rgb(83, 183, 83);
+    width: 90%;
+    padding: 18px 10px;
+    border-radius: 20px;
+}
+
+
+form button{
+    width: 60%;
+}
+
 }
